@@ -4,8 +4,7 @@
   "description": "Natour project ",
   "main": "index.js",
   "scripts": {
-   
-    "compile:cass" : "node-sass sass/main.css css/style.css"  
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,8 @@
   "homepage": "https://github.com/pittiragavendra-github/OMidFood#readme",
   "devDependencies": {
     "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
   }
 }
