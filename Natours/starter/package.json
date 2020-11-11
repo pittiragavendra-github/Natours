@@ -4,8 +4,8 @@
   "description": "Natour project ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "compile-cass" : ""
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:cass" : "node-sass sass/main.css css/style.css"  
   },
   "repository": {
     "type": "git",
